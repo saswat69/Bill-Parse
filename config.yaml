@@ -1,0 +1,22 @@
+# Edit each quarter before running /process-claim
+
+employee:
+  name: YOUR_NAME
+  emp_id: "YOUR_EMP_ID"
+  designation: YOUR_DESIGNATION
+
+claim:
+  # Inclusive period for reimbursement (YYYY-MM-DD)
+  period_start: "2026-04-01"
+  period_end: "2026-06-30"
+  # Display strings for Word form (use right single quote U+2019 if matching template)
+  period_display: "01 APR '26 To 30 JUN '26"
+
+templates:
+  excel: templates/Claim Statement-2026.xlsx
+  word: templates/Employee claim Form -2026.docx
+
+paths:
+  travel_input: Travel/
+  food_input: Food/
+  output: output/

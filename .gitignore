@@ -1,0 +1,18 @@
+# Generated claim artifacts — do not commit filled forms or PDFs
+output/*
+!output/.gitkeep
+Travel/*.pdf
+Food/*.pdf
+Travel/**/*.pdf
+Food/**/*.pdf
+
+# OS / editor
+.DS_Store
+*.swp
+*~
+
+# Temp Office lock files
+~$*
+
+# Local terminal logs
+.ai/terminal/
